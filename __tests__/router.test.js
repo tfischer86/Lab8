@@ -1,8 +1,7 @@
-import { pushToHistory } from "../scripts/router";
-
 /**
  * @jest-environment jsdom
  */
+ import { pushToHistory } from "../scripts/router";
 
 describe('Test history length after pushToHistory', () => {
     test('initial stack length', () => {

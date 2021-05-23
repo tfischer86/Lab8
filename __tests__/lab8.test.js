@@ -13,7 +13,7 @@ describe('Basic user flow for SPA ', () => {
   });
 
   // test 2 is given
-  it.skip('Test2: Make sure <journal-entry> elements are populated', async () => {
+  it('Test2: Make sure <journal-entry> elements are populated', async () => {
     let allArePopulated = true;
     let data, plainValue;
     const entries = await page.$$('journal-entry');

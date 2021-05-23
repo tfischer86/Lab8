@@ -1,5 +1,5 @@
-# Lab8
-
+# Lab8 
+## Author: Thomas Fischer
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)
     A. Within a Github action that runs whenever code is pushed.
@@ -22,3 +22,6 @@
     ```
 
     Although this depends on the settings button working. Ideally we could test that clicking the settings button works and skip the other tests if it fails. A `step` feature supporting this has been in development for over a year, but it doesn't look like it will be merged any time soon.
+
+## Screenshot
+![screenshot](./screenshot.png)
